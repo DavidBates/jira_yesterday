@@ -1,6 +1,6 @@
 {
   "name": "jira_yesterday",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI to list out yesterday's comments and task updates",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.3.1",
+    "elevenlabs-node": "^1.2.0",
+    "fs-extra": "^11.1.1",
     "openai": "^4.1.0"
   }
 }
